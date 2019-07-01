@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tic Tac Toe JS Project</title>
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+</head>
+<body onload="startGame()">
+    <h1 class="page-title">Tic Tac Toe in JAVASCRIPT</h1>
+    <div id="message">Messages here</div>
+    <table border="1">
+        <tr>
+            <td class="square" id="s1" onClick="nextMove(this)"></td>
+            <td class="square" id="s2" onClick="nextMove(this)"></td>
+            <td class="square" id="s3" onClick="nextMove(this)"></td>
+        </tr>
+        <tr>
+            <td class="square" id="s4" onClick="nextMove(this)"></td>
+            <td class="square" id="s5" onClick="nextMove(this)"></td>
+            <td class="square" id="s6" onClick="nextMove(this)"></td>
+        </tr>
+        <tr>
+            <td class="square" id="s7" onClick="nextMove(this)"></td>
+            <td class="square" id="s8" onClick="nextMove(this)"></td>
+            <td class="square" id="s9" onClick="nextMove(this)"></td>
+        </tr>
+    </table>
+    <a href="javascript: startGame();" id="restart">Restart game</a>
+    <script src="assets/js/scripts.js"></script>
+</body>
+</html>
