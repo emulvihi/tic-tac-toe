@@ -83,3 +83,9 @@ function getBox(number) {
 function clearBox(number) {
     document.getElementById("s" + number).innerText = "";
 }
+
+
+
+
+
+

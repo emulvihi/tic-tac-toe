@@ -1,26 +1,48 @@
 body {
+    padding: 0;
+    margin: 0;
+    background: #111;
+    text-transform: uppercase;
+    font-size: 1.5vh;
+    color: #111;
+}
+
+#main {
+    margin: 0;
+    padding: 0;
+    padding-top: 25vh;
+    height: auto;
+    width: 100%;
+}
+
+#board {
+    padding: 0;
     margin: auto;
+    width: 33%;
+    height: 33%;
 }
 
-.page-title {
-    border-bottom: 1px solid #000;
-}
-
-.square {
-    height: 60px;
-    width: 60px;
-    font-size: 50px;
-    text-align: center;
-    transition: all .25s ease-in-out;
+.tile {
+    padding: 0;
+    margin: 0.5vh;
+    height: 10vh;
+    width: 10vh;
+    border-radius: 5px;
+    background: #fff;
     cursor: pointer;
+    float: left;
 }
 
-.square:hover {
-    background: rgba(10, 10, 10, 0.5);
-}
-
-#restart {
-    font-size: 20px;
-    text-decoration: none;
-    color: #000;
+.button {
+    margin: 0.5vh;
+    padding: 0;
+    height: 5vh;
+    width: 15.5vh;
+    line-height: 5vh;
+    vertical-align: middle;
+    background: #fff;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    float: left;
 }
