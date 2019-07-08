@@ -208,27 +208,36 @@ function checkFull(board) {
     return true;
 }
 
+// Tells the computer to take a turn
 function callAI() {
     aiturn(state, 0, COMPUTER);
 }
 
+// Takes computers turn
 function aiturn(board, depth, player) {
     if (checkWin(board, !player))
         return -10 + depth;
         
     if (checkFull(board))
         return 0;
-        
+    
+    // If the player is human, set value to the human value; otherwise, set it to the computer value
     var value = player == HUMAN ? HUMVAL : COMVAL;
     
+    // Sets baseline
     var max = -Infinity;
     var index = 0;
         
+    // Checks all values on the board    
     for (var x = 0; x < 9; x++) {
+        // Checks if tile is empty
         if (board[x] == 0) {
+            // If it's empty, it creates a new temporary board
             var newboard = board.slice();
+            // Sets value to whoever is taking their turn
             newboard[x] = value;
             
+            // Checks value of every possible move combination and determines best moves for computer
             var moveval = -aiturn(newboard, depth + 1, !player);
             
             if (moveval > max) {
