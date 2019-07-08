@@ -6,7 +6,7 @@ Hosted on [GitHub Pages](https://emulvihi.github.io/tic-tac-toe/) Repository on 
 
 ## UX
 
-Wireframes can be found [here](https://github.com/emulvihi/tic-tac-toe/tree/master/user-design-experience)
+Wireframes can be found [here](https://github.com/emulvihi/tic-tac-toe/tree/master/User%20Design%20Experience)
 
 ### Users
 
@@ -60,6 +60,14 @@ Features planned, implemented and outlined for later development
 - UX Elements
     - Animations
     - Messages
+
+## Problems Encountered
+
+There were a large range of problems encountered during this project but the main one was time. This project had two other iterations before I finally decided on what I was going to do; the first of these was an interactive map and the second was a game of Ultimate Tic-Tac-Toe. I ultimately deemed them too complex and time-consuming, however not before wasting significant time on them given my limited timescale of a week in which to complete this project.
+
+Being unfamiliar with JavaScript before this course, I made a large amount of mistakes during the build and it took a significant amount of time to correct them. In the end, I managed to achieve core functionality but failed to implement meaningful UX and greater interactivity within the timescale given. I fully intend to continue work on this project in order to fully flesh it out and complete it to my satisfaction.
+
+All in all, this project was a good exercise in learning to determine what is feasible and choosing what features are core to a project and must be kept vs. extraneous ones.
 
 ## Technologies Used
 
