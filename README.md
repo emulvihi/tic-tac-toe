@@ -6,14 +6,11 @@ Hosted on [GitHub Pages](https://emulvihi.github.io/tic-tac-toe/) Repository on 
 
 ## UX
 
+Wireframes can be found [here](https://github.com/emulvihi/tic-tac-toe/tree/master/user-design-experience)
+
 ### Users
 
 Expected users of this site are competitive people that would like the challenge of trying to beat a supposedly unbeatable computer.
-
-### User Stories
-
-1. sgf
-2. sdv
 
 ## Features
 
