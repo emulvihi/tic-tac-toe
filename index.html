@@ -9,15 +9,13 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 </head>
 
-<body onload="startGame()">
+<body>
 
     <div id="main">
 
         <h1 class="page-title">Tic Tac Toe in JAVASCRIPT</h1>
         <div id="message">Messages here</div>
-        <!--<table>-->
-        <!--    <tr>-->
-        <!--        <td>-->
+        
         <!--            <table border="1">-->
         <!--                <tr>-->
         <!--                    <td class="square" id="s1" onClick="nextMove(this)"></td>-->
@@ -35,165 +33,7 @@
         <!--                    <td class="square" id="s9" onClick="nextMove(this)"></td>-->
         <!--                </tr>-->
         <!--            </table>-->
-        <!--        </td>-->
-        <!--        <td>-->
-        <!--            <table border="1">-->
-        <!--                <tr>-->
-        <!--                    <td class="square" id="s1" onClick="nextMove(this)"></td>-->
-        <!--                    <td class="square" id="s2" onClick="nextMove(this)"></td>-->
-        <!--                    <td class="square" id="s3" onClick="nextMove(this)"></td>-->
-        <!--                </tr>-->
-        <!--                <tr>-->
-        <!--                    <td class="square" id="s4" onClick="nextMove(this)"></td>-->
-        <!--                    <td class="square" id="s5" onClick="nextMove(this)"></td>-->
-        <!--                    <td class="square" id="s6" onClick="nextMove(this)"></td>-->
-        <!--                </tr>-->
-        <!--                <tr>-->
-        <!--                    <td class="square" id="s7" onClick="nextMove(this)"></td>-->
-        <!--                    <td class="square" id="s8" onClick="nextMove(this)"></td>-->
-        <!--                    <td class="square" id="s9" onClick="nextMove(this)"></td>-->
-        <!--                </tr>-->
-        <!--            </table>-->
-        <!--        </td>-->
-        <!--        <td>-->
-        <!--            <table border="1">-->
-        <!--                <tr>-->
-        <!--                    <td class="square" id="s1" onClick="nextMove(this)"></td>-->
-        <!--                    <td class="square" id="s2" onClick="nextMove(this)"></td>-->
-        <!--                    <td class="square" id="s3" onClick="nextMove(this)"></td>-->
-        <!--                </tr>-->
-        <!--                <tr>-->
-        <!--                    <td class="square" id="s4" onClick="nextMove(this)"></td>-->
-        <!--                    <td class="square" id="s5" onClick="nextMove(this)"></td>-->
-        <!--                    <td class="square" id="s6" onClick="nextMove(this)"></td>-->
-        <!--                </tr>-->
-        <!--                <tr>-->
-        <!--                    <td class="square" id="s7" onClick="nextMove(this)"></td>-->
-        <!--                    <td class="square" id="s8" onClick="nextMove(this)"></td>-->
-        <!--                    <td class="square" id="s9" onClick="nextMove(this)"></td>-->
-        <!--                </tr>-->
-        <!--            </table>-->
-        <!--        </td>-->
-        <!--    </tr>-->
-        <!--    <tr>-->
-        <!--        <td>-->
-        <!--            <table border="1">-->
-        <!--                <tr>-->
-        <!--                    <td class="square" id="s1" onClick="nextMove(this)"></td>-->
-        <!--                    <td class="square" id="s2" onClick="nextMove(this)"></td>-->
-        <!--                    <td class="square" id="s3" onClick="nextMove(this)"></td>-->
-        <!--                </tr>-->
-        <!--                <tr>-->
-        <!--                    <td class="square" id="s4" onClick="nextMove(this)"></td>-->
-        <!--                    <td class="square" id="s5" onClick="nextMove(this)"></td>-->
-        <!--                    <td class="square" id="s6" onClick="nextMove(this)"></td>-->
-        <!--                </tr>-->
-        <!--                <tr>-->
-        <!--                    <td class="square" id="s7" onClick="nextMove(this)"></td>-->
-        <!--                    <td class="square" id="s8" onClick="nextMove(this)"></td>-->
-        <!--                    <td class="square" id="s9" onClick="nextMove(this)"></td>-->
-        <!--                </tr>-->
-        <!--            </table>-->
-        <!--        </td>-->
-        <!--        <td>-->
-        <!--            <table border="1">-->
-        <!--                <tr>-->
-        <!--                    <td class="square" id="s1" onClick="nextMove(this)"></td>-->
-        <!--                    <td class="square" id="s2" onClick="nextMove(this)"></td>-->
-        <!--                    <td class="square" id="s3" onClick="nextMove(this)"></td>-->
-        <!--                </tr>-->
-        <!--                <tr>-->
-        <!--                    <td class="square" id="s4" onClick="nextMove(this)"></td>-->
-        <!--                    <td class="square" id="s5" onClick="nextMove(this)"></td>-->
-        <!--                    <td class="square" id="s6" onClick="nextMove(this)"></td>-->
-        <!--                </tr>-->
-        <!--                <tr>-->
-        <!--                    <td class="square" id="s7" onClick="nextMove(this)"></td>-->
-        <!--                    <td class="square" id="s8" onClick="nextMove(this)"></td>-->
-        <!--                    <td class="square" id="s9" onClick="nextMove(this)"></td>-->
-        <!--                </tr>-->
-        <!--            </table>-->
-        <!--        </td>-->
-        <!--        <td>-->
-        <!--            <table border="1">-->
-        <!--                <tr>-->
-        <!--                    <td class="square" id="s1" onClick="nextMove(this)"></td>-->
-        <!--                    <td class="square" id="s2" onClick="nextMove(this)"></td>-->
-        <!--                    <td class="square" id="s3" onClick="nextMove(this)"></td>-->
-        <!--                </tr>-->
-        <!--                <tr>-->
-        <!--                    <td class="square" id="s4" onClick="nextMove(this)"></td>-->
-        <!--                    <td class="square" id="s5" onClick="nextMove(this)"></td>-->
-        <!--                    <td class="square" id="s6" onClick="nextMove(this)"></td>-->
-        <!--                </tr>-->
-        <!--                <tr>-->
-        <!--                    <td class="square" id="s7" onClick="nextMove(this)"></td>-->
-        <!--                    <td class="square" id="s8" onClick="nextMove(this)"></td>-->
-        <!--                    <td class="square" id="s9" onClick="nextMove(this)"></td>-->
-        <!--                </tr>-->
-        <!--            </table>-->
-        <!--        </td>-->
-        <!--    </tr>-->
-        <!--    <tr>-->
-        <!--        <td>-->
-        <!--            <table border="1">-->
-        <!--                <tr>-->
-        <!--                    <td class="square" id="s1" onClick="nextMove(this)"></td>-->
-        <!--                    <td class="square" id="s2" onClick="nextMove(this)"></td>-->
-        <!--                    <td class="square" id="s3" onClick="nextMove(this)"></td>-->
-        <!--                </tr>-->
-        <!--                <tr>-->
-        <!--                    <td class="square" id="s4" onClick="nextMove(this)"></td>-->
-        <!--                    <td class="square" id="s5" onClick="nextMove(this)"></td>-->
-        <!--                    <td class="square" id="s6" onClick="nextMove(this)"></td>-->
-        <!--                </tr>-->
-        <!--                <tr>-->
-        <!--                    <td class="square" id="s7" onClick="nextMove(this)"></td>-->
-        <!--                    <td class="square" id="s8" onClick="nextMove(this)"></td>-->
-        <!--                    <td class="square" id="s9" onClick="nextMove(this)"></td>-->
-        <!--                </tr>-->
-        <!--            </table>-->
-        <!--        </td>-->
-        <!--        <td>-->
-        <!--            <table border="1">-->
-        <!--                <tr>-->
-        <!--                    <td class="square" id="s1" onClick="nextMove(this)"></td>-->
-        <!--                    <td class="square" id="s2" onClick="nextMove(this)"></td>-->
-        <!--                    <td class="square" id="s3" onClick="nextMove(this)"></td>-->
-        <!--                </tr>-->
-        <!--                <tr>-->
-        <!--                    <td class="square" id="s4" onClick="nextMove(this)"></td>-->
-        <!--                    <td class="square" id="s5" onClick="nextMove(this)"></td>-->
-        <!--                    <td class="square" id="s6" onClick="nextMove(this)"></td>-->
-        <!--                </tr>-->
-        <!--                <tr>-->
-        <!--                    <td class="square" id="s7" onClick="nextMove(this)"></td>-->
-        <!--                    <td class="square" id="s8" onClick="nextMove(this)"></td>-->
-        <!--                    <td class="square" id="s9" onClick="nextMove(this)"></td>-->
-        <!--                </tr>-->
-        <!--            </table>-->
-        <!--        </td>-->
-        <!--        <td>-->
-        <!--            <table border="1">-->
-        <!--                <tr>-->
-        <!--                    <td class="square" id="s1" onClick="nextMove(this)"></td>-->
-        <!--                    <td class="square" id="s2" onClick="nextMove(this)"></td>-->
-        <!--                    <td class="square" id="s3" onClick="nextMove(this)"></td>-->
-        <!--                </tr>-->
-        <!--                <tr>-->
-        <!--                    <td class="square" id="s4" onClick="nextMove(this)"></td>-->
-        <!--                    <td class="square" id="s5" onClick="nextMove(this)"></td>-->
-        <!--                    <td class="square" id="s6" onClick="nextMove(this)"></td>-->
-        <!--                </tr>-->
-        <!--                <tr>-->
-        <!--                    <td class="square" id="s7" onClick="nextMove(this)"></td>-->
-        <!--                    <td class="square" id="s8" onClick="nextMove(this)"></td>-->
-        <!--                    <td class="square" id="s9" onClick="nextMove(this)"></td>-->
-        <!--                </tr>-->
-        <!--            </table>-->
-        <!--        </td>-->
-        <!--    </tr>-->
-        <!--</table>-->
+
 
         <div id="board">
 
@@ -214,7 +54,6 @@
 
     </div>
 
-    <a href="javascript: startGame();" id="restart">Restart game</a>
     <script src="assets/js/scripts.js"></script>
 </body>
 
